@@ -17,4 +17,4 @@ RUN yum clean all
 RUN useradd cmirror
 USER cmirror
 
-ENTRYPOINT ["/miniconda/bin/conda-mirror"]
+CMD ["/miniconda/bin/conda-mirror"]
